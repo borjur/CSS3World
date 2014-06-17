@@ -1,0 +1,17 @@
+body, html { min-height: 100%; }
+body {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(white));
+	background: -webkit-linear-gradient(top, #e3e3e3, white);
+	background: -moz-linear-gradient(top, #e3e3e3, white);
+	background: -o-linear-gradient(top, #e3e3e3, white);
+	background: -ms-linear-gradient(top, #e3e3e3, white);
+	background: linear-gradient(top, #e3e3e3, white);
+}
+
+.box {
+	margin: auto;
+	width: 400px;
+	height: 500px;
+	background: black;
+	color: white;
+}
